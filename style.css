@@ -109,3 +109,42 @@ button:hover {
   font-size: 14px;
   color: #6b7280;
 }
+/* Specs Card */
+.specs-card {
+    background: #f3f4f6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Listing Cards */
+.listing-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.2s ease;
+}
+
+.listing-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.listing-card a {
+    font-weight: 600;
+    color: #1d4ed8;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.listing-card a:hover {
+    text-decoration: underline;
+}
+
+.price {
+    margin-top: 8px;
+    color: #111827;
+    font-weight: bold;
+}
