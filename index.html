@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Equipment Search Tool</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Equipment Search</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <div class="logo-section">
-    <img src="logo.png" alt="Boston Pro Service" class="logo">
-    <h1>Boston Pro Service</h1>
-  </div>
-</header>
-    <div class="container">
-        <h1>Search for Equipment</h1>
-        <input type="text" id="searchInput" placeholder="Enter Model or Serial Number">
-        <button onclick="searchEquipment()">Search</button>
-        <div id="results"></div>
+  <header class="hero">
+    <div class="top-bar">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <div class="top-buttons">
+        <button class="header-btn">Saved</button>
+        <button class="header-btn">Favorites</button>
+      </div>
     </div>
-    <script src="app.js"></script>
+
+    <div class="search-container">
+      <input type="text" class="search-bar" placeholder="Search equipment..." />
+      <button class="search-btn">Search</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Add search results, categories, or featured listings here -->
+  </main>
 </body>
 </html>
